@@ -1,0 +1,23 @@
+[
+{
+    "model": "core.singlechoicequestion",
+    "pk": 1,
+    "fields": {
+        "options": "[\"Hold the knife handle with all fingers wrapped around it\", \"Place your thumb and index finger on either side of the blade, just above the handle, and wrap your remaining fingers around the handle\", \"Hold the knife handle with a loose grip\", \"Grip the knife handle with both hands\"]"
+    }
+},
+{
+    "model": "core.singlechoicequestion",
+    "pk": 4,
+    "fields": {
+        "options": "[\"Flour, water, salt\", \"Flour, eggs, salt\", \"Flour, milk, eggs\", \"Flour, olive oil, water\"]"
+    }
+},
+{
+    "model": "core.singlechoicequestion",
+    "pk": 7,
+    "fields": {
+        "options": "[\"Olive oil\", \"Soy sauce\", \"Balsamic vinegar\", \"Mustard\"]"
+    }
+}
+]

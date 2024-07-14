@@ -1,0 +1,18 @@
+[
+{
+    "model": "core.course",
+    "pk": 1,
+    "fields": {
+        "slug": "cooking",
+        "title": "Cooking",
+        "description": "Welcome to Cooking Mastery: From Basics to Gourmet, an immersive online course designed to transform you into a confident and skilled home chef. Whether you're a beginner just starting out in the kitchen or an experienced cook looking to expand your culinary repertoire, this course offers something for everyone.",
+        "students": [
+            2,
+            3
+        ],
+        "educators": [
+            1
+        ]
+    }
+}
+]

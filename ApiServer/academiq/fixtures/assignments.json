@@ -1,0 +1,38 @@
+[
+{
+    "model": "core.assignment",
+    "pk": 1,
+    "fields": {
+        "course": 1,
+        "title": "Quiz 1",
+        "description": "Complete quiz for lesson 1.",
+        "weight": 1,
+        "is_checkpoint": false,
+        "assignment_type": "quiz"
+    }
+},
+{
+    "model": "core.assignment",
+    "pk": 2,
+    "fields": {
+        "course": 1,
+        "title": "Quiz 2",
+        "description": "Quiz for lesson 2",
+        "weight": 2,
+        "is_checkpoint": false,
+        "assignment_type": "quiz"
+    }
+},
+{
+    "model": "core.assignment",
+    "pk": 3,
+    "fields": {
+        "course": 1,
+        "title": "Quiz 3",
+        "description": "Quiz for lesson 3.",
+        "weight": 2,
+        "is_checkpoint": true,
+        "assignment_type": "quiz"
+    }
+}
+]

@@ -1,0 +1,32 @@
+[
+{
+    "model": "core.lesson",
+    "pk": 1,
+    "fields": {
+        "course": 1,
+        "title": "Mastering Knife Skills",
+        "description": "In this foundational lesson, you'll learn the essential knife skills that every chef needs. We'll cover the basics of knife safety, handling, and maintenance, ensuring you're comfortable and confident in the kitchen. You'll practice various cutting techniques, including chopping, slicing, dicing, and julienning, with a focus on precision and efficiency. By the end of this lesson, you'll be able to prepare ingredients quickly and safely, setting a strong foundation for all your culinary endeavors.",
+        "order": 1
+    }
+},
+{
+    "model": "core.lesson",
+    "pk": 2,
+    "fields": {
+        "course": 1,
+        "title": "Perfecting Pasta Dishes",
+        "description": "Dive into the world of pasta in this delicious lesson. You'll learn how to make pasta from scratch, including rolling and cutting dough to create different pasta shapes. We'll explore classic Italian sauces like marinara, Alfredo, and pesto, as well as more advanced techniques like creating stuffed pastas such as ravioli and tortellini. This lesson will equip you with the skills to create restaurant-quality pasta dishes at home, impressing family and friends with your culinary prowess.",
+        "order": 2
+    }
+},
+{
+    "model": "core.lesson",
+    "pk": 3,
+    "fields": {
+        "course": 1,
+        "title": "Exploring Asian Flavors",
+        "description": "Embark on a culinary journey through Asia as we explore the rich and diverse flavors of this vibrant cuisine. This lesson will introduce you to essential Asian ingredients and cooking techniques, including stir-frying, steaming, and wok cooking. You'll learn to prepare popular dishes such as sushi, dumplings, stir-fried noodles, and curry. By the end of this lesson, you'll have a deeper understanding of Asian culinary traditions and the confidence to recreate these delicious dishes in your own kitchen.",
+        "order": 3
+    }
+}
+]

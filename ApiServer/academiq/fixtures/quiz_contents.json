@@ -1,0 +1,23 @@
+[
+{
+    "model": "core.quizcontent",
+    "pk": 2,
+    "fields": {
+        "assignment": 1
+    }
+},
+{
+    "model": "core.quizcontent",
+    "pk": 4,
+    "fields": {
+        "assignment": 2
+    }
+},
+{
+    "model": "core.quizcontent",
+    "pk": 6,
+    "fields": {
+        "assignment": 3
+    }
+}
+]

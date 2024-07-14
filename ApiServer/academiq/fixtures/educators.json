@@ -1,0 +1,11 @@
+[
+{
+    "model": "core.educator",
+    "pk": 1,
+    "fields": {
+        "user": 4,
+        "first_name": "Viktor",
+        "last_name": "Barinov"
+    }
+}
+]

@@ -1,0 +1,8 @@
+# Virtual environment directory
+academiq-env/
+
+# Environment variables file
+.env
+
+# Byte-compiled Python code
+**/__pycache__/

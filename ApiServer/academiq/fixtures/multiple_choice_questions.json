@@ -1,0 +1,23 @@
+[
+{
+    "model": "core.multiplechoicequestion",
+    "pk": 2,
+    "fields": {
+        "options": "[\"Chopping\", \"Slicing\", \"Shredding\", \"Dicing\", \"Smashing\"]"
+    }
+},
+{
+    "model": "core.multiplechoicequestion",
+    "pk": 5,
+    "fields": {
+        "options": "[\"Marinara Sauce\", \"Alfredo Sauce\", \"Pesto Sauce\", \"Bolognese Sauce\", \"Hollandaise Sauce\"]"
+    }
+},
+{
+    "model": "core.multiplechoicequestion",
+    "pk": 8,
+    "fields": {
+        "options": "[\"Grilling\", \"Stir-frying\", \"Baking\", \"Steaming\", \"Deep-frying\"]"
+    }
+}
+]

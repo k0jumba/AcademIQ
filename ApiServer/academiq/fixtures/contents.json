@@ -1,0 +1,68 @@
+[
+{
+    "model": "core.content",
+    "pk": 1,
+    "fields": {
+        "lesson": 1,
+        "title": "Article",
+        "description": "Article for lesson 1.",
+        "order": 1,
+        "content_type": "TextContent"
+    }
+},
+{
+    "model": "core.content",
+    "pk": 2,
+    "fields": {
+        "lesson": 1,
+        "title": "Quiz",
+        "description": "Quiz for lesson 1.",
+        "order": 2,
+        "content_type": "QuizContent"
+    }
+},
+{
+    "model": "core.content",
+    "pk": 3,
+    "fields": {
+        "lesson": 2,
+        "title": "Article",
+        "description": "Article for lesson 2.",
+        "order": 1,
+        "content_type": "TextContent"
+    }
+},
+{
+    "model": "core.content",
+    "pk": 4,
+    "fields": {
+        "lesson": 2,
+        "title": "Quiz",
+        "description": "Quiz for lesson 2.",
+        "order": 2,
+        "content_type": "QuizContent"
+    }
+},
+{
+    "model": "core.content",
+    "pk": 5,
+    "fields": {
+        "lesson": 3,
+        "title": "Article",
+        "description": "Article for lesson 3.",
+        "order": 1,
+        "content_type": "TextContent"
+    }
+},
+{
+    "model": "core.content",
+    "pk": 6,
+    "fields": {
+        "lesson": 3,
+        "title": "Quiz",
+        "description": "Quiz for lesson 3.",
+        "order": 2,
+        "content_type": "QuizContent"
+    }
+}
+]

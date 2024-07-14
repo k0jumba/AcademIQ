@@ -1,0 +1,51 @@
+from django.urls import path, include
+from core.views import (
+    AssignmentDetailsView,
+    AssignmentListView,
+    AssignmentSubmissionsListView,
+    ContentDetailsView,
+    ContentsListView,
+    CourseDetailsView,
+    CoursesListView,
+    CreateGradeView,
+    CreateSubmissionView,
+    GradesTableView,
+    LessonDetailView,
+    LessonsListView,
+    MyCoursesListView,
+    MySubmissionsListView,
+    ProfileView,
+    SubmissionDetailView,
+    SubscribeCourseView,
+    UnsubscribeCourseView,
+)
+
+urlpatterns = [
+    path("profile/", ProfileView.as_view()),
+    path("courses/", CoursesListView.as_view()),
+    path("my_courses/", MyCoursesListView.as_view()),
+    path("courses/<slug:course_slug>/", CourseDetailsView.as_view()),
+    path("courses/<slug:course_slug>/subscribe/", SubscribeCourseView.as_view()),
+    path("courses/<slug:course_slug>/unsubscribe/", UnsubscribeCourseView.as_view()),
+    path("courses/<slug:course_slug>/lessons/", LessonsListView.as_view()),
+    path(
+        "courses/<slug:course_slug>/lessons/<int:lesson_order>/",
+        LessonDetailView.as_view(),
+    ),
+    path(
+        "courses/<slug:course_slug>/lessons/<int:lesson_order>/contents/",
+        ContentsListView.as_view(),
+    ),
+    path(
+        "courses/<slug:course_slug>/lessons/<int:lesson_order>/contents/<int:content_order>/",
+        ContentDetailsView.as_view(),
+    ),
+    path("courses/<slug:course_slug>/assignments/", AssignmentListView.as_view()),
+    path("courses/<slug:course_slug>/assignments/<int:assignment_id>/", AssignmentDetailsView.as_view()),
+    path("courses/<slug:course_slug>/grades_table/", GradesTableView.as_view()),
+    path("courses/<slug:course_slug>/create_grade/", CreateGradeView.as_view()),
+    path("courses/<slug:course_slug>/my_submissions/", MySubmissionsListView.as_view()),
+    path("courses/<slug:course_slug>/assignments/<int:assignment_id>/submissions/", AssignmentSubmissionsListView.as_view()),
+    path("courses/<slug:course_slug>/submissions/<int:submission_id>/", SubmissionDetailView.as_view()),
+    path("courses/<slug:course_slug>/assignments/<int:assignment_id>/create_submission/", CreateSubmissionView.as_view()),
+]

@@ -1,0 +1,42 @@
+[
+{
+    "model": "core.grade",
+    "pk": 1,
+    "fields": {
+        "assignment": 1,
+        "student": 2,
+        "score": 100,
+        "created": "2024-07-12T13:01:45.571Z"
+    }
+},
+{
+    "model": "core.grade",
+    "pk": 2,
+    "fields": {
+        "assignment": 1,
+        "student": 3,
+        "score": 33,
+        "created": "2024-07-12T13:02:07.415Z"
+    }
+},
+{
+    "model": "core.grade",
+    "pk": 3,
+    "fields": {
+        "assignment": 2,
+        "student": 2,
+        "score": 100,
+        "created": "2024-07-12T13:02:18.970Z"
+    }
+},
+{
+    "model": "core.grade",
+    "pk": 4,
+    "fields": {
+        "assignment": 2,
+        "student": 3,
+        "score": 67,
+        "created": "2024-07-12T13:02:29.787Z"
+    }
+}
+]

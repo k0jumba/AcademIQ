@@ -1,0 +1,68 @@
+[
+{
+    "model": "core.submission",
+    "pk": 1,
+    "fields": {
+        "author": 2,
+        "assignment": 1,
+        "created": "2024-01-02T17:00:00.000Z",
+        "submission_type": "quiz",
+        "submission_data": "[{\"question_order\":1,\"answer\":\"Place your thumb and index finger on either side of the blade, just above the handle, and wrap your remaining fingers around the handle\"},{\"question_order\":2,\"answer\":[\"Chopping\",\"Slicing\",\"Shredding\"]},{\"question_order\":3,\"answer\":\"The primary purpose of honing is to realign the edge of the knife. Over time and with regular use, the edge of a knife tends to bend or fold over slightly. Honing straightens these microscopic bends, bringing the edge back to its original alignment.\\n\\nSharpening, on the other hand, involves grinding away material from the blade to create a new, sharp edge. This is necessary when the knife becomes dull and honing no longer suffices to restore its cutting performance.\"}]"
+    }
+},
+{
+    "model": "core.submission",
+    "pk": 2,
+    "fields": {
+        "author": 2,
+        "assignment": 2,
+        "created": "2024-01-03T18:30:00.000Z",
+        "submission_type": "quiz",
+        "submission_data": "[{\"question_order\":1,\"answer\":\"Flour, eggs, salt\"},{\"question_order\":2,\"answer\":[\"Marinara Sauce\",\"Alfredo Sauce\",\"Pesto Sauce\"]},{\"question_order\":3,\"answer\":\"Making cheese ravioli from scratch starts with preparing the pasta dough. Combine all-purpose flour and a pinch of salt on a clean surface, creating a well in the center. Crack eggs into the well, add a drizzle of olive oil, and gradually mix the flour into the eggs until a dough forms. Knead the dough until smooth and elastic, then wrap it in plastic wrap and let it rest for at least 30 minutes.\\n\\nFor the cheese filling, mix ricotta cheese, grated Parmesan, shredded mozzarella, an egg, and some freshly chopped herbs like parsley or basil in a bowl. After the dough has rested, roll it out into thin sheets. Place small mounds of the cheese filling on one sheet, brush with water or beaten egg around the filling, and lay another sheet on top. Press down to seal and cut out individual ravioli.\\n\\nCook the ravioli in boiling salted water for 3-5 minutes until they float to the surface. Use a slotted spoon to transfer them to a serving dish. Serve with your favorite sauce, such as marinara or butter and sage, and top with extra grated Parmesan and freshly ground black pepper. Enjoy your homemade cheese ravioli immediately.\"}]"
+    }
+},
+{
+    "model": "core.submission",
+    "pk": 3,
+    "fields": {
+        "author": 2,
+        "assignment": 3,
+        "created": "2024-01-04T19:35:00.000Z",
+        "submission_type": "quiz",
+        "submission_data": "[{\"question_order\":1,\"answer\":\"Soy sauce\"},{\"question_order\":2,\"answer\":[\"Stir-frying\",\"Steaming\"]},{\"question_order\":3,\"answer\":\"Making sushi at home begins with gathering the essential ingredients. You'll need sushi rice, nori (seaweed sheets), fresh fish or other fillings like vegetables, and sushi vinegar. Additional items include soy sauce, wasabi, and pickled ginger for serving. For the fillings, popular choices include fresh tuna or salmon, cucumber, avocado, and imitation crab. Make sure to have a bamboo sushi mat for rolling.\\n\\nStart by preparing the sushi rice. Rinse the rice several times until the water runs clear, then cook it according to the package instructions. Once cooked, transfer the rice to a large bowl and let it cool slightly. Mix in sushi vinegar to give the rice its characteristic flavor, using a gentle folding motion to avoid mashing the grains. While the rice cools, prepare your fillings by slicing fish and vegetables into thin, even strips.\\n\\nTo assemble the sushi, place a sheet of nori on the bamboo mat, shiny side down. Spread a thin layer of sushi rice over the nori, leaving a small border at the top. Arrange your fillings horizontally across the center of the rice. Using the bamboo mat, carefully roll the nori over the fillings, applying gentle pressure to form a tight roll. Slice the roll into bite-sized pieces using a sharp knife dipped in water to prevent sticking. Serve your sushi rolls with soy sauce, wasabi, and pickled ginger on the side. Enjoy your homemade sushi fresh for the best taste and texture.\"}]"
+    }
+},
+{
+    "model": "core.submission",
+    "pk": 4,
+    "fields": {
+        "author": 3,
+        "assignment": 1,
+        "created": "2024-01-03T23:59:00.000Z",
+        "submission_type": "quiz",
+        "submission_data": "[{\"question_order\":1,\"answer\":\"Place your thumb and index finger on either side of the blade, just above the handle, and wrap your remaining fingers around the handle\"},{\"question_order\":2,\"answer\":[\"Smashing\",\"Dicing\"]},{\"question_order\":3,\"answer\":\"ughh idk\"}]"
+    }
+},
+{
+    "model": "core.submission",
+    "pk": 5,
+    "fields": {
+        "author": 3,
+        "assignment": 2,
+        "created": "2024-01-04T01:50:00.000Z",
+        "submission_type": "quiz",
+        "submission_data": "[{\"question_order\":1,\"answer\":\"Flour, eggs, salt\"},{\"question_order\":2,\"answer\":[\"Marinara Sauce\",\"Alfredo Sauce\",\"Pesto Sauce\"]},{\"question_order\":3,\"answer\":\"idk just do it\"}]"
+    }
+},
+{
+    "model": "core.submission",
+    "pk": 6,
+    "fields": {
+        "author": 3,
+        "assignment": 3,
+        "created": "2024-01-04T02:20:00.000Z",
+        "submission_type": "quiz",
+        "submission_data": "[{\"question_order\":1,\"answer\":\"Soy sauce\"},{\"question_order\":2,\"answer\":[\"Deep-frying\"]},{\"question_order\":3,\"answer\":\"just order sushi lol\"}]"
+    }
+}
+]

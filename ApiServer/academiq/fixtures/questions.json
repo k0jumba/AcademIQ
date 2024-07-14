@@ -1,0 +1,92 @@
+[
+{
+    "model": "core.question",
+    "pk": 1,
+    "fields": {
+        "quiz": 2,
+        "order": 1,
+        "text": "What is the proper way to grip a chef's knife?",
+        "question_type": "SingleChoiceQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 2,
+    "fields": {
+        "quiz": 2,
+        "order": 2,
+        "text": "Which of the following are considered fundamental cutting techniques? (Select all that apply)",
+        "question_type": "MultipleChoiceQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 3,
+    "fields": {
+        "quiz": 2,
+        "order": 3,
+        "text": "Describe the purpose of honing a knife and how it differs from sharpening.",
+        "question_type": "TextFieldQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 4,
+    "fields": {
+        "quiz": 4,
+        "order": 1,
+        "text": "What are the basic ingredients needed to make pasta dough from scratch?",
+        "question_type": "SingleChoiceQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 5,
+    "fields": {
+        "quiz": 4,
+        "order": 2,
+        "text": "Which of the following are classic Italian pasta sauces covered in this lesson? (Select all that apply)",
+        "question_type": "MultipleChoiceQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 6,
+    "fields": {
+        "quiz": 4,
+        "order": 3,
+        "text": "Describe the process of making cheese ravioli from scratch, including the ingredients for the filling and the steps to assemble and cook the ravioli.",
+        "question_type": "TextFieldQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 7,
+    "fields": {
+        "quiz": 6,
+        "order": 1,
+        "text": "Which of the following is a key ingredient in many Asian cuisines for adding umami flavor?",
+        "question_type": "SingleChoiceQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 8,
+    "fields": {
+        "quiz": 6,
+        "order": 2,
+        "text": "Which cooking techniques are commonly used in Asian cuisine? (Select all that apply)",
+        "question_type": "MultipleChoiceQuestion"
+    }
+},
+{
+    "model": "core.question",
+    "pk": 9,
+    "fields": {
+        "quiz": 6,
+        "order": 3,
+        "text": "Describe the ingredients and steps involved in making sushi at home.",
+        "question_type": "TextFieldQuestion"
+    }
+}
+]

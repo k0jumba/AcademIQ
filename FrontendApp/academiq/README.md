@@ -15,6 +15,8 @@ npm install
 
 To run the development server:
 
+Run from `AcademIQ/FrontendApp/academiq`
+
 ```console
 npm run serve
 ```

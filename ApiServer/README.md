@@ -55,7 +55,7 @@ django-admin shell
 
 Inside the python shell run this code
 
-```
+```python
 from django.core.management.utils import get_random_secret_key  
 get_random_secret_key()
 ```

@@ -45,6 +45,23 @@ copy .env.example .env
 
 Edit the `.env` file to include your configuration settings.
 
+***Django secret key***
+
+To generate django secret key, run
+
+```console
+django-admin shell
+```
+
+Inside the python shell run this code
+
+```
+from django.core.management.utils import get_random_secret_key  
+get_random_secret_key()
+```
+
+Copy the string contents and paste it inside `.env` file as `SECRET_KEY`.
+
 ### 5. Apply Migrations
 
 Run the following command to apply database migrations.

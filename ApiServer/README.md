@@ -82,5 +82,3 @@ Run from `AcademIQ/ApiServer/academiq/`
 ```console
 python manage.py runserver
 ```
-
-Visit `http://127.0.0.1:8000/` in your web browser to see the project in action.

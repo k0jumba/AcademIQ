@@ -20,7 +20,7 @@ Run from `AcademIQ/ApiServer/`
 
 ```console
 python -m venv ./academiq-env
-env-name\Scripts\activate
+academiq-env\Scripts\activate
 ```
 
 ### 3. Install Requirements
